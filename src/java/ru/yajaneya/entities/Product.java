@@ -52,6 +52,10 @@ public class Product {
         this.price = price;
     }
 
+    public List<Customer> getCustomers() {
+        return customers;
+    }
+
     @Override
     public String toString() {
         return id + ". " + title + " по цене " + price + "р. приобрело " + customers.size() + " покупателей";

@@ -42,6 +42,10 @@ public class Customer {
         this.name = name;
     }
 
+    public List<Product> getProducts() {
+        return products;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
