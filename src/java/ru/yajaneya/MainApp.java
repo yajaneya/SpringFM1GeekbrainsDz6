@@ -13,12 +13,6 @@ public class MainApp {
         CustomerDao customerDao = context.getBean(CustomerDao.class);
         ProductDao productDao = context.getBean(ProductDao.class);
 
-//        SessionFactoryUtils s = new SessionFactoryUtils();
-//
-//        s.init();
-//
-//        s.getSession().beginTransaction();
-
         System.out.println();
         System.out.println("Продукты");
         System.out.println("-------------");
