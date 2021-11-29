@@ -3,7 +3,6 @@ package ru.yajaneya.dao;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import ru.yajaneya.entities.Customer;
 import ru.yajaneya.entities.Product;
 import ru.yajaneya.utils.SessionFactoryUtils;
 
