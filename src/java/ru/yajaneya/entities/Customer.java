@@ -14,7 +14,7 @@ public class Customer {
     @Column (name = "name")
     private String name;
 
-    @ManyToMany
+    @ManyToMany (fetch = FetchType.EAGER)
     @JoinTable (
             name = "customers_products",
             joinColumns = @JoinColumn(name = "customer_id"),
